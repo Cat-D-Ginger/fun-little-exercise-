@@ -41,6 +41,7 @@
 .logo {
     display: flex;
     gap: 10px;
+    margin-right: 400px;
 }
 .icon-bar {
     display: flex;
@@ -69,4 +70,33 @@
 }
 .icon-btn:active {
     transform: scale(1);
+}
+.flex-under {
+    display: flex;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.first-pic {
+    display: flex;
+    padding-top: 50px;
+}
+.first-image {
+    padding-top: 5px;
+}
+.first-text {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-orientation: upright;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    writing-mode: vertical-lr;
+    text-height: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.winco {
+    padding-left: 100px;
 }
