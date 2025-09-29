@@ -1,0 +1,72 @@
+.body {
+    margin: 40px;
+    height: 100vh;
+    background-image: url("../Fun/image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.catlog {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-color: aliceblue;
+    border: 2px solid;
+    padding: 5px 20px;
+    border-radius: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 6px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.catlog:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2);
+}
+.catlog:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1); 
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+.logo-image {
+    height: 40px;
+}
+.logo {
+    display: flex;
+    gap: 10px;
+}
+.icon-bar {
+    display: flex;
+    gap: 15px;
+    border-color: rgb(255, 255, 255);
+}
+.icon-btn {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+.icon {
+    height: 70%;
+    width: 100%;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.icon-btn:hover {
+    transform: scale(1.2);
+}
+.icon-btn:active {
+    transform: scale(1);
+}
